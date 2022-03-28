@@ -7,13 +7,51 @@ public class Exercises {
 	{
 //		北ソフト工房
 //		2.入力
-		
+
 //		2-1
+		// BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		// String s = br.readLine();
+		// System.out.println(s);
+
+    // 2-2
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//		int n = Integer.parseInt(br.readLine());
-		String s = br.readLine();
-		System.out.println(s);
-		
+		int x = Integer.parseInt(br.readLine());
+		System.out.println(x);
+
+//		2-3
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//		int x = Integer.parseInt(br.readLine());
+//		System.out.println(x);
+//		System.out.println(x*x);
+//		System.out.println(x*x*x);
+
+//		2-4
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//		int x = Integer.parseInt(br.readLine());
+//		int y = Integer.parseInt(br.readLine());
+
+//		System.out.println(x + y);
+//		System.out.println(x - y);
+//		System.out.println(x * y);
+//		System.out.println(x / y);
+//		System.out.println(x % y);
+
+//		2-5
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//		int x = Integer.parseInt(br.readLine());
+//		int y = Integer.parseInt(br.readLine());
+
+//		System.out.println((x+y)/2);
+
+//		2-6
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("年齢を入力してください。");
+		int x = Integer.parseInt(br.readLine());
+
+		System.out.println(x*365);
+
+
+
 //		4.繰り返し
 		
 //		4-1
