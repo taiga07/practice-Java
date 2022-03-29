@@ -44,11 +44,11 @@ public class Exercises {
 //		System.out.println((x+y)/2);
 
 //		2-6
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("年齢を入力してください。");
-		int x = Integer.parseInt(br.readLine());
+		// BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		// System.out.println("年齢を入力してください。");
+		// int x = Integer.parseInt(br.readLine());
 
-		System.out.println(x*365);
+		// System.out.println(x*365);
 
 
 
@@ -75,9 +75,15 @@ public class Exercises {
 //		System.out.println(x);
 		
 //		4-5
-//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//		int n = Integer.parseInt(br.readLine());
-		
-		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    int sum = 0;
+    for(int i = 1; i <= 10; i++) {
+      int x = Integer.parseInt(br.readLine());
+      sum += x;
+    }
+    System.out.println(sum/10);
+
+
+
 	}
 }
