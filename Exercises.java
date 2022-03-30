@@ -1,17 +1,46 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+// import java.io.BufferedReader;
+// import java.io.IOException;
+// import java.io.InputStreamReader;
+
+import java.io.*; //java.ioから始まるクラスやインターフェースを取り込む
 
 public class Exercises {
 	public static void main(String[] args) throws IOException
 	{
-    int sum = 0;
-    for(int i = 1; i <=100; i++){
-      if(i % 2 == 1){
-        sum += i;
+    // int sum = 0;
+    // for(int i = 1; i <=100; i++){
+    //   if(i % 2 == 1){
+    //     sum += i;
+    //   }
+    // }
+    // System.out.println("1から100の奇数の総和は"+sum);
+
+    // ピラミッド
+    // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    // int num = Integer.parseInt(br.readLine());
+    // for(int i = 0; i < num; i++){
+    //   for(int j = 0; j < num-(i+1); j++){
+    //     System.out.print(" ");
+    //   }
+    //   for(int k = 0; k < (i+1)*2-1; k++){
+    //     System.out.print("*");
+    //   }
+    //   System.out.println();
+    // }
+
+    // 逆ピラミッド
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    int num = Integer.parseInt(br.readLine());
+    for(int i = 0; i < num; i++){
+      for(int j = 0; j < i; j++){
+        System.out.print(" ");
       }
+      for(int k = 0; k < (num-i)*2-1; k++){
+        System.out.print("*");
+      }
+      System.out.println();
     }
-    System.out.println("1から100の奇数の総和は"+sum);
+
 //		北ソフト工房
 //		2.入力
 
