@@ -154,6 +154,49 @@ public class Exercises {
 		// }
 		// System.out.println("最大値：" + max + "最小値：" + min);
 
+    //		4-10
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//		int x = Integer.parseInt(br.readLine());
+//		for(int i=1; i<=x; i++) {
+//			System.out.println("*");
+//		}
+		
+//		4-11
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//		int x = Integer.parseInt(br.readLine());
+//		for(int i=0; i<x; i++) {
+//			System.out.println(i % 10);
+//		}
+		
+//		4-12
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//		int x = 0;
+//		while(x<=100) {
+//			x += Integer.parseInt(br.readLine());
+//		}
+//		System.out.println(x);
+		
+//		4-13,4-14
+		// BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		// int x=0;
+		// int y=0;
+		// int z=0;
+		// int num=0;
+		
+		// while(x<3&&y<4) {
+		// 	System.out.println("ストライク＝1orボール＝2orファウル＝3？");
+		// 	num =Integer.parseInt(br.readLine());
+		// 	if(num == 1) {
+		// 		x++;
+		// 	}else if(num == 2) {
+		// 		y++;
+		// 	}else if(num == 3) {
+		// 		if(x<2) {
+		// 			x++;
+		// 		}
+		// 	}
+		// }
+		// System.out.println(y + "ボール" + x +"ストライク");
 
 
 
