@@ -41,6 +41,7 @@ public class Exercises {
       System.out.println();
     }
 
+
 //		北ソフト工房
 //		2.入力
 
