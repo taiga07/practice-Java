@@ -29,17 +29,17 @@ public class Exercises {
     // }
 
     // 逆ピラミッド
-    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    int num = Integer.parseInt(br.readLine());
-    for(int i = 0; i < num; i++){
-      for(int j = 0; j < i; j++){
-        System.out.print(" ");
-      }
-      for(int k = 0; k < (num-i)*2-1; k++){
-        System.out.print("*");
-      }
-      System.out.println();
-    }
+    // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    // int num = Integer.parseInt(br.readLine());
+    // for(int i = 0; i < num; i++){
+    //   for(int j = 0; j < i; j++){
+    //     System.out.print(" ");
+    //   }
+    //   for(int k = 0; k < (num-i)*2-1; k++){
+    //     System.out.print("*");
+    //   }
+    //   System.out.println();
+    // }
 
 
 //		北ソフト工房
